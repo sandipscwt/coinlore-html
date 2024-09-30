@@ -70,10 +70,12 @@ body {
 
 .hero_section{
     width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
     display: block;
-    margin: 0;
     padding: 130px 0 132px;
     position: relative;
+    overflow: hidden;
 }
 .hero_section .right_image {
     width: 49%;
@@ -81,10 +83,12 @@ body {
     position: absolute;
     top: 112px;
     right: 0;
-    overflow: hidden;
 }
-.hero_section .right_image img{
+.hero_section .right_image img {
     width: 100%;
+    height: 579px !important;
+    object-fit: contain;
+    object-position: top right;
 }
 .banner_content h1{
     font-size: 60px;
@@ -156,8 +160,9 @@ body {
 
 .why_choose{
     width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
     display: block;
-    margin: 0;
     padding: 80px 0;
 }
 .why_choose .col-md-4{
@@ -198,3 +203,97 @@ body {
     font-weight: 400;
     line-height: 20px;
 }
+.essential_tools {
+    width: 100%;
+    display: block;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.essential_tools .heading_area{
+    margin: 0 0 80px;
+}
+.essential_tools h3{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #101828;
+    margin: 0 0 15px;
+}
+.essential_tools p{
+    color: #667085;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0 0 30px;
+}
+.essential_tools ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.essential_tools ul li {
+    background: url(images/icon9.png) no-repeat left 2px;
+    background-size: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #667085;
+    margin: 0 0 20px;
+    padding-left: 40px;
+}
+.feature_row_one{
+    width: 100%;
+    display: block;
+    margin: 0 0 100px;
+    padding: 0;
+    position: relative;
+}
+.feature_image1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: rgba(0,0,0,0.1)8px 20px 30px;
+    border-radius: 8px;
+}
+.feature_row_one .row{
+    align-items: center;
+    min-height: 525px;
+}
+.feature_row_two{
+    width: 100%;
+    display: block;
+    margin: 0 0 100px;
+    padding: 0;
+    position: relative;
+}
+.feature_image2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: rgba(0,0,0,0.1)8px 20px 30px;
+    border-radius: 8px;
+}
+.feature_row_two .row{
+    align-items: center;
+    min-height: 525px;
+}
+.feature_row_three{
+    width: 100%;
+    display: block;
+    margin: 0 0 100px;
+    padding: 0;
+    position: relative;
+}
+.feature_image3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: rgba(0,0,0,0.1)8px 20px 30px;
+    border-radius: 8px;
+}
+.feature_row_three .row {
+    align-items: center;
+    min-height: 525px;
+}
+
+
